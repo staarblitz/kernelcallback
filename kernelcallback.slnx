@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="driver/driver.vcxproj">
+    <Platform Project="x64" />
+    <Deploy />
+  </Project>
+  <Project Path="kernelcallback/kernelcallback.vcxproj" Id="30ea7554-df8f-4bac-a2f2-72299c32ce80" />
+</Solution>
